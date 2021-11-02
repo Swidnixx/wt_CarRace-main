@@ -51,7 +51,7 @@ public class DrivingScript : MonoBehaviour
         float accel = Input.GetAxis("Vertical");
         float steer = Input.GetAxis("Horizontal");
         float brake = Input.GetAxis("Jump");
-        if (!RaceController.racePendinig)
+        if (!RaceController.racePending)
             accel = 0;
         Drive(accel, brake, steer);
     }

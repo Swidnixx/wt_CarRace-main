@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarApperance : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public string playerName;
+	public Color carColor;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public Text nameText;
+	public Renderer carRenderer;
+
+	void Start()
+	{
+		nameText.text = playerName;
+		carRenderer.material.color = carColor;
+		nameText.color = carColor;
+	}
 }

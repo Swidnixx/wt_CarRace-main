@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/DELL/Documents/Semestr3/wt_CarRace-main/MultiRaceCoal/Packages/manifest.json
+    m_FilePath: C:/Users/DELL/CarRace/wt_CarRace-main/MultiRaceCoal/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637720737504426085
-    m_Hash: 1220793266
+      ticks: 637732823002934989
+    m_Hash: 4034518671
   m_LockFileStatus:
-    m_FilePath: C:/Users/DELL/Documents/Semestr3/wt_CarRace-main/MultiRaceCoal/Packages/packages-lock.json
+    m_FilePath: C:/Users/DELL/CarRace/wt_CarRace-main/MultiRaceCoal/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637720740074567591
-    m_Hash: 2310940983
+      ticks: 637732824357587679
+    m_Hash: 1057246013
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.10
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.cinemachine@2.6.10
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.cinemachine@2.6.10
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -43,10 +43,91 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 2.1.11-beta.1
+        - 2.1.12
+        - 2.1.13
+        - 2.2.0
+        - 2.2.7
+        - 2.2.8
+        - 2.2.9
+        - 2.2.10-preview.3
+        - 2.2.10-preview.4
+        - 2.3.1
+        - 2.3.3
+        - 2.3.4
+        - 2.3.5-preview.3
+        - 2.4.0-preview.3
+        - 2.4.0-preview.4
+        - 2.4.0-preview.6
+        - 2.4.0-preview.7
+        - 2.4.0-preview.8
+        - 2.4.0-preview.9
+        - 2.4.0-preview.10
+        - 2.4.0
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
         - 2.6.10
+        - 2.6.11
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.9.0-pre.1
         compatible:
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
         - 2.6.10
-        verified: 2.6.10
+        - 2.6.11
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.9.0-pre.1
+        verified: 2.6.11
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -84,20 +165,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637654219840000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
         revision: 21f619698ca31d69054e96556e03097e48e43c5d
         path: 
-    - packageId: com.unity.collab-proxy@1.13.5
+    - packageId: com.unity.collab-proxy@1.15.1
       testable: 0
       isDirectDependency: 1
-      version: 1.13.5
+      version: 1.15.1
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.collab-proxy@1.13.5
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.collab-proxy@1.15.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -115,10 +196,10 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.13.5
+        - 1.15.1
         compatible:
-        - 1.13.5
-        verified: 1.13.5
+        - 1.15.1
+        verified: 1.15.1
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
@@ -163,14 +244,14 @@ m_PackageAssets:
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 4001806dc89b25276d1382d5abffd71731b030e5
+        revision: 44478cbd3117b13beac17ff868e64d0aed5c4071
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -229,7 +310,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.11
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -288,7 +369,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.4
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ide.vscode@1.2.4
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -337,7 +418,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.29
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.test-framework@1.1.29
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -398,7 +479,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -478,7 +559,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -547,7 +628,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -610,7 +691,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -658,7 +739,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -706,7 +787,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -754,7 +835,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -802,7 +883,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -850,7 +931,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -902,7 +983,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -958,7 +1039,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1007,7 +1088,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1055,7 +1136,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1103,7 +1184,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1151,7 +1232,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1199,7 +1280,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1247,7 +1328,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1299,7 +1380,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1347,7 +1428,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1403,7 +1484,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1455,7 +1536,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1503,7 +1584,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1567,7 +1648,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1615,7 +1696,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -1671,7 +1752,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -1719,7 +1800,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -1775,7 +1856,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -1831,7 +1912,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -1887,7 +1968,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -1959,7 +2040,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2011,7 +2092,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2071,7 +2152,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2133,7 +2214,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2181,7 +2262,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2241,7 +2322,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2293,7 +2374,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2352,7 +2433,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2403,7 +2484,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -2459,7 +2540,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: C:\Users\DELL\Documents\Semestr3\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: C:\Users\DELL\CarRace\wt_CarRace-main\MultiRaceCoal\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -2511,5 +2592,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/DELL/Documents/Semestr3/wt_CarRace-main/MultiRaceCoal/Packages
-m_EditorVersion: 2020.3.22f1 (e1a7f79fd887)
+m_ProjectPath: C:/Users/DELL/CarRace/wt_CarRace-main/MultiRaceCoal/Packages
+m_EditorVersion: 2020.3.23f1 (c5d91304a876)

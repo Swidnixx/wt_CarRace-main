@@ -11,6 +11,8 @@ public class CarApperance : MonoBehaviour
 	public Text nameText;
 	public Renderer carRenderer;
 
+	public int playerNumber;
+
 	void Start()
 	{
 		nameText.text = playerName;

@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class MenuController : MonoBehaviour
+
+public class MenuController : MonoBehaviourPunCallbacks
 {
+
+    #region Unity Fields
     public Renderer carRenderer;
 
     public Slider redSlider;
@@ -13,7 +18,58 @@ public class MenuController : MonoBehaviour
     public Slider blueSlider;
 
     public InputField playerName;
+    #endregion
 
+    #region Photon Fields
+    public Text networkText;
+    int maxPlayers = 4;
+    bool isConnecting;
+    #endregion
+
+    #region Photon Callbacks
+    public void Connect()
+    {
+        networkText.text = "";
+        isConnecting = true;
+        PhotonNetwork.NickName = playerName.text;
+        if(PhotonNetwork.IsConnected)
+        {
+            networkText.text += "Joining room...\n";
+            PhotonNetwork.JoinRandomRoom();
+        }
+        else
+        {
+            networkText.text += "Connecting...\n";
+            PhotonNetwork.ConnectUsingSettings();
+        }
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        if(isConnecting)
+        {
+            networkText.text += "Connected to master";
+            PhotonNetwork.JoinRandomRoom();
+        }
+    }
+
+    public override void OnJoinRandomFailed(short returnCode, string message)
+    {
+        networkText.text += "Failed to join room...\n";
+        PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = (byte)maxPlayers});
+    }
+
+    public override void OnJoinedRoom()
+    {
+        networkText.text += "Joined room with "
+            + PhotonNetwork.CurrentRoom.PlayerCount
+            + " players\n";
+
+        PhotonNetwork.LoadLevel("MainScene");
+    }
+    #endregion
+
+    #region Menu Script
     public void SetName(string name)
     {
         PlayerPrefs.SetString("PlayerName", name);
@@ -43,8 +99,10 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    void Start()
+    void Awake()
     {
+        PhotonNetwork.AutomaticallySyncScene = true;
+
         redSlider.value = PlayerPrefs.GetInt("red");
         greenSlider.value = PlayerPrefs.GetInt("green");
         blueSlider.value = PlayerPrefs.GetInt("blue");
@@ -57,4 +115,5 @@ public class MenuController : MonoBehaviour
     {
         SetCarColor((int)redSlider.value, (int)greenSlider.value, (int)blueSlider.value);
     }
+    #endregion
 }

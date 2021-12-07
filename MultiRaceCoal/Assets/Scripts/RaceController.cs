@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class RaceController : MonoBehaviour
+public class RaceController : MonoBehaviourPunCallbacks
 {
+    #region RaceFields
     public static bool racePending = false;
     public static int totalLaps = 1;
     public int timer = 5;
@@ -23,41 +26,81 @@ public class RaceController : MonoBehaviour
     public GameObject carPrefab;
     public Transform[] spawnPositions;
     public int playerCount;
+    #endregion
 
-    void Awake()
+    #region Photon Logic
+    public GameObject StartBurtton;
+    public GameObject WaitText;
+
+    [PunRPC]
+    public void StartGame()
     {
-        endPanel.SetActive(false);
-        audioSource = GetComponent<AudioSource>();
-        startText.gameObject.SetActive(false);
-
         InvokeRepeating(nameof(CountDown), 3, 1);
-
-        for(int i=0;i<playerCount;i++)
-        {
-            GameObject car = Instantiate(carPrefab);
-            car.transform.position = spawnPositions[i].position;
-            car.transform.rotation = spawnPositions[i].rotation;
-            car.GetComponent<CarApperance>().playerNumber = i;
-            if(i==0)
-            {
-                car.GetComponent<PlayerController>().enabled = true;
-                GameObject.FindObjectOfType<CameraController>().SetCamera(car);
-            }
-        }
-
-
         GameObject[] carObjects = GameObject.FindGameObjectsWithTag("Car");
         cars = new CheckpointController[carObjects.Length];
 
-        for(int i =0; i<cars.Length; i++)
+        for (int i = 0; i < cars.Length; i++)
         {
             cars[i] = carObjects[i].GetComponent<CheckpointController>();
         }
     }
 
+    public void BeginGame()
+    {
+        if(PhotonNetwork.IsMasterClient)
+        {
+            photonView.RPC(nameof(StartGame), RpcTarget.All, null);
+        }
+    }
+    #endregion
+
+    void Awake()
+    {
+        playerCount = PhotonNetwork.CurrentRoom.PlayerCount;
+        endPanel.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
+        startText.gameObject.SetActive(false);
+
+        StartBurtton.SetActive(false);
+        WaitText.SetActive(false);
+
+        int randStartPos = Random.Range(0, spawnPositions.Length);
+        Vector3 startPos = spawnPositions[randStartPos].position;
+        Quaternion startRot = spawnPositions[randStartPos].rotation;
+        GameObject playerCar = null;
+
+        if(PhotonNetwork.IsConnected)
+        {
+            startPos = spawnPositions[playerCount - 1].position;
+            startRot = spawnPositions[playerCount - 1].rotation;
+
+            if(OnlinePlayer.LocalPlayer == null)
+            {
+                playerCar = PhotonNetwork.Instantiate(
+                    carPrefab.name,
+                    startPos, startRot // instance data lacking
+                    );
+                playerCar.GetComponent<CarApperance>().SetLocalPlayer();
+            }
+
+            if(PhotonNetwork.IsMasterClient)
+            {
+                StartBurtton.SetActive(true);
+            }
+            else
+            {
+                WaitText.SetActive(true);
+            }
+        }
+
+        playerCar.GetComponent<PlayerController>().enabled = true;
+    }
+
     void LateUpdate()
     {
-        
+        if (cars == null) return;
+
+
         int finishers = 0;
         foreach(CheckpointController c in cars)
         {

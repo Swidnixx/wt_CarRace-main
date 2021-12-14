@@ -35,6 +35,9 @@ public class RaceController : MonoBehaviourPunCallbacks
     [PunRPC]
     public void StartGame()
     {
+        WaitText.SetActive(false);
+        StartBurtton.SetActive(false);
+
         InvokeRepeating(nameof(CountDown), 3, 1);
         GameObject[] carObjects = GameObject.FindGameObjectsWithTag("Car");
         cars = new CheckpointController[carObjects.Length];
@@ -74,11 +77,17 @@ public class RaceController : MonoBehaviourPunCallbacks
             startPos = spawnPositions[playerCount - 1].position;
             startRot = spawnPositions[playerCount - 1].rotation;
 
+            object[] instanceData = new object[4];
+            instanceData[0] = PlayerPrefs.GetString("PlayerName");
+            instanceData[1] = PlayerPrefs.GetInt("red");
+            instanceData[2] = PlayerPrefs.GetInt("green");
+            instanceData[3] = PlayerPrefs.GetInt("blue");
+
             if(OnlinePlayer.LocalPlayer == null)
             {
                 playerCar = PhotonNetwork.Instantiate(
                     carPrefab.name,
-                    startPos, startRot // instance data lacking
+                    startPos, startRot, 0, instanceData
                     );
                 playerCar.GetComponent<CarApperance>().SetLocalPlayer();
             }

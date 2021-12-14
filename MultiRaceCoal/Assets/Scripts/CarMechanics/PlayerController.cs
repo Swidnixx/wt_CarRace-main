@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
         CheckpointController checkpointController = ds.rb.GetComponent<CheckpointController>();
 
-        if (ds.rb.velocity.magnitude > 1 || RaceController.racePending == false)
+        if ((ds.rb.velocity.magnitude > 1 || RaceController.racePending == false) || (ds.rb.velocity.magnitude < 1 && accel ==0))
         {
             lastTimeOk = Time.time;
         }

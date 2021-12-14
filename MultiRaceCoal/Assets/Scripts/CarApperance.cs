@@ -36,8 +36,20 @@ public class CarApperance : MonoBehaviour
 		//nameText.color = carColor;
 	}
 
+
+	public void SetNameAndColor(string name, Color color)
+    {
+		nameText.text = name;
+		carRenderer.material.color = color;
+		nameText.color = color;
+    }
 	public void SetLocalPlayer()
     {
-
+		FindObjectOfType<CameraController>().SetCamera(this.gameObject);
+		playerName = PlayerPrefs.GetString("PlayerName");
+		carColor = MenuController.IntToColor(PlayerPrefs.GetInt("red"),
+			PlayerPrefs.GetInt("green"),
+			PlayerPrefs.GetInt("blue"));
+		SetNameAndColor(playerName, carColor);
     }
 }

@@ -65,7 +65,7 @@ public class MenuController : MonoBehaviourPunCallbacks
             + PhotonNetwork.CurrentRoom.PlayerCount
             + " players\n";
 
-        PhotonNetwork.LoadLevel("MainScene");
+        PhotonNetwork.LoadLevel("TestScene");
     }
     #endregion
 

@@ -1397,7 +1397,7 @@ MonoBehaviour:
   carColor: {r: 0, g: 0, b: 0, a: 1}
   nameText: {fileID: 8656307821276507025}
   carRenderer: {fileID: 8061715704518966939}
-  playerNumber: 0
+  checkpointController: {fileID: 8656307822550345056}
 --- !u!114 &4202982193879485711
 MonoBehaviour:
   m_ObjectHideFlags: 0
